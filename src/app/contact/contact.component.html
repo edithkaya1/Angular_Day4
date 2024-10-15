@@ -1,0 +1,38 @@
+<div id="te" class="contact te container-fluid">
+    <form [formGroup]="blogForm" (ngSubmit)="onSubmit()">
+      <br>
+      <div class="mb-2">
+        <label>First name:</label>
+        <span class="lab1">
+        <input formControlName="firstName" type="text" id="field1">
+        </span>
+      </div>
+      <div class="mb-2">
+        <label>Lastname:</label>
+        <span class="lab2">
+        <input formControlName="lastName" type="text" id="field1">
+        </span>
+      </div>
+      <div class="mb-2">
+        <label>Email:</label>
+        <span class="lab3">
+        <input formControlName="email" type="email" id="field1">
+        </span>
+      </div>
+      <div class="mb-2">
+        <label>Message:</label>
+        <span class="lab4">
+          <textarea name="" formControlName="message" id="textarea"></textarea>
+        </span>
+      </div>
+      <div class="mb-4">
+        <label>Registration date:</label>
+        <span class="lab5">
+        <input formControlName="registrationDate" type="date" name="" id="date1">
+        </span>
+      </div>
+      <div>
+        <button [disabled]="!blogForm.valid" type="submit">Submit</button>
+      </div>  
+    </form>
+  </div>

@@ -1,0 +1,17 @@
+.card {
+    width: 18em;
+    height: auto;
+}
+
+.card-img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.card-header {
+    background-color: #a8d681;
+}
+
+.card-title {
+    color: #1d3c02;
+}

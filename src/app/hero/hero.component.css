@@ -1,0 +1,32 @@
+.hero {
+    height: 50vh;
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/30/19/42/cosmetic-2357981_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    .header {
+        font-size: 4rem;
+        padding-top: 50px;
+        justify-content: center;
+        letter-spacing: 0.2rem;
+        color: #4f8901;
+        text-shadow: 2px 2px 15px #766f76;
+        animation: zoomIn;
+        animation-duration: 5s;
+        --animate-delay: 0.9s;
+    }
+    
+    h2 {
+        font-size: 3rem;
+        justify-content: center;
+        color: #c4c1c6;
+        text-shadow:
+            1px 1px 2px black,
+            0 0 4em rgb(109, 35, 106),
+            0 0 3em rgb(113, 71, 105);
+        text-shadow: 7px 7px -5px #656464;
+        margin-top: 2px;
+    }
